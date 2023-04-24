@@ -6,7 +6,7 @@ to make the function recyclable"""
 
 def num_check(question, low, high):
     error = "That was not valid\n" \
-            "Please enter a number between {} and {}\n".format(low,high)
+            "Please enter a number between {} and {}\n".format(low, high)
 
     #keep asking until a valid amount
     while True:
